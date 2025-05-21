@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Input Fields -->
+    <EditText
+        android:id="@+id/inputIndo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bahasa Indonesia" />
+
+    <EditText
+        android:id="@+id/inputInggris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bahasa Inggris" />
+
+    <EditText
+        android:id="@+id/inputKorea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bahasa Korea" />
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perbarui Data" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus Data" />
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
